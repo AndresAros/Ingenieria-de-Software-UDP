@@ -82,6 +82,8 @@ CREATE TABLE IF NOT EXISTS usuarios
     ID INT NOT NULL AUTO_INCREMENT, 
     mail VARCHAR(50) NOT NULL,
     pass NCHAR(70) NOT NULL,
+    telefono varchar(45) NOT NULL,
+    nombre_apellido varchar(45) NOT NULL,		
     PRIMARY KEY (ID)
     
 );
